@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="958c822a-7a9c-40d4-bd27-5aa0477a150d" name="Changes" comment="workspace.xml stuff I have no idea" />
+    <list default="true" id="958c822a-7a9c-40d4-bd27-5aa0477a150d" name="Changes" comment="workspace.xml stuff I have no idea 2.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677987652590</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="workspace.xml stuff I have no idea 2.0">
+      <created>1677987714542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677987714542</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -89,6 +96,7 @@
     <MESSAGE value="Project build or something idk" />
     <MESSAGE value="Prototype code that actually works" />
     <MESSAGE value="workspace.xml stuff I have no idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml stuff I have no idea" />
+    <MESSAGE value="workspace.xml stuff I have no idea 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml stuff I have no idea 2.0" />
   </component>
 </project>
