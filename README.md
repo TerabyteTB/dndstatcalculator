@@ -6,4 +6,5 @@ D&D stat calculator. Nothing fancy here. [^1]
 
 [Insert barely disguised rickroll link here.](https://youtu.be/dQw4w9WgXcQ) [^3]
 
-[^3]: https://youtu.be/dQw4w9WgXcQ
+[^3]: https://youtu.be/dQw4w9WgXcQ [^4]
+[^4]: Wait a secon—
