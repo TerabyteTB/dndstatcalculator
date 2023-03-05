@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="958c822a-7a9c-40d4-bd27-5aa0477a150d" name="Changes" comment="Project build or something idk">
+    <list default="true" id="958c822a-7a9c-40d4-bd27-5aa0477a150d" name="Changes" comment="Prototype code that actually works">
       <change afterPath="$PROJECT_DIR$/src/calc/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -68,6 +68,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project creation!" />
     <MESSAGE value="Project build or something idk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project build or something idk" />
+    <MESSAGE value="Prototype code that actually works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype code that actually works" />
   </component>
 </project>
