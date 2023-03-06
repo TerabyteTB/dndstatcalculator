@@ -4,7 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import static utils.Constants.*;
+import static utils.Constants.ANSI_RED;
+import static utils.Constants.ANSI_RESET;
 
 public class Utilities {
 
