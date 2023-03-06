@@ -11,6 +11,6 @@ public class Calculator {
         String wisMod = Integer.toString(utils.getStatMod(wis));
         String chaMod = Integer.toString(utils.getStatMod(cha));
 
-        return new String[] {strMod, dexMod, conMod, intMod, wisMod, chaMod};
+        return new String[]{strMod, dexMod, conMod, intMod, wisMod, chaMod};
     }
 }

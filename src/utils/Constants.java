@@ -2,7 +2,7 @@ package utils;
 
 public class Constants {
     public static final int PRIM_STATS = 6;
-    public static final String BUILD_VERSION = "1.0";
+    public static final String BUILD_VERSION = "1.0.0";
     public static final String GITHUB_REPOSITORY_ADDRESS = "https://github.com/TerabyteTB/dndstatcalculator";
     public static final String ANSI_RESET = "\u001B[0m";
     //public static final String ANSI_BLACK = "\u001B[30m";

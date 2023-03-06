@@ -53,7 +53,7 @@ public class Main {
         }
         stats = Calculator.modCalc(str, dex, con, intelligence, wis, cha);
 
-        for(int i = 0; i < PRIM_STATS; i++) {
+        for (int i = 0; i < PRIM_STATS; i++) {
             switch (i) {
                 case 0 -> System.out.println("Your character's Strength modifier is: " + stats[0]);
                 case 1 -> System.out.println("Your character's Dexterity modifier is: " + stats[1]);
@@ -61,7 +61,8 @@ public class Main {
                 case 3 -> System.out.println("Your character's Intelligence modifier is: " + stats[3]);
                 case 4 -> System.out.println("Your character's Wisdom modifier is: " + stats[4]);
                 case 5 -> System.out.println("Your character's Charisma modifier is: " + stats[5]);
-                default -> throw new IllegalStateException("(How did this happen anyways? This is literally a For loop) Unexpected value: " + i);
+                default ->
+                        throw new IllegalStateException("(How did this happen anyways? This is literally a For loop) Unexpected value: " + i);
             }
         }
     }
