@@ -1,7 +1,7 @@
 package calc;
 
 public class Calculator {
-    public static int primStats = 6;
+    public static int PRIM_STATS = 6;
 
     private static int statMod(int stat) {
         return (int) Math.floor((stat - 10.0) / 2.0);
