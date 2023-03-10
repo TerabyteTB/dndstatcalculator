@@ -28,6 +28,7 @@ public class Utilities {
             System.out.println(ANSI_RED + "Please enter only numbers." + ANSI_RESET);
             promptStat(prompt);
         }
+        //Placeholder return statement. Since the method is recursive, this physically cannot occur.
         return 0;
     }
 }
