@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="958c822a-7a9c-40d4-bd27-5aa0477a150d" name="Changes" comment="Optimize code organization">
-      <change beforePath="$PROJECT_DIR$/src/utils/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Utilities.java" afterDir="false" />
+    <list default="true" id="958c822a-7a9c-40d4-bd27-5aa0477a150d" name="Changes" comment="Optimization and cleanup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d2155ce4-8b1b-422c-8b0a-d38897a7e511" />
+        <option name="url" value="https://github.com/TerabyteTB/dndstatcalculator.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -186,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678132695924</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="comment in Utilities.java">
+      <created>1678478073763</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678478073763</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +261,8 @@
     <MESSAGE value="Made a JAR n' stuff" />
     <MESSAGE value="workspace.xml stuff idk 4.0" />
     <MESSAGE value="Optimize code organization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimize code organization" />
+    <MESSAGE value="comment in Utilities.java" />
+    <MESSAGE value="Optimization and cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimization and cleanup" />
   </component>
 </project>

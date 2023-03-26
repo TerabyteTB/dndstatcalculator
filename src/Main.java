@@ -6,52 +6,12 @@ import java.io.IOException;
 import static utils.Constants.*;
 
 public class Main {
+    private static String[] stats;
     private static final Utilities utils = new Utilities();
 
     public static void main(String[] args) {
-        int str;
-        int dex;
-        int con;
-        int intelligence;
-        int wis;
-        int cha;
-        String[] stats;
 
-        System.out.println("This tool is made by " + ANSI_GREEN + "TerabyteTB" + ANSI_RESET + ".");
-        System.out.println("The current build version is " + ANSI_GREEN + BUILD_VERSION + ANSI_RESET + ".");
-        System.out.println("You can find this project at " + GITHUB_REPOSITORY_ADDRESS + ".");
-
-        try {
-            str = utils.promptStat("Please enter your character's Strength statistic:");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            dex = utils.promptStat("Please enter your character's Dexterity statistic:");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            con = utils.promptStat("Please enter your character's Constitution statistic:");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            intelligence = utils.promptStat("Please enter your character's Intelligence statistic:");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            wis = utils.promptStat("Please enter your character's Wisdom statistic:");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            cha = utils.promptStat("Please enter your character's Charisma statistic:");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        stats = Calculator.modCalc(str, dex, con, intelligence, wis, cha);
+        init();
 
         for (int i = 0; i < PRIM_STATS; i++) {
             switch (i) {
@@ -65,5 +25,49 @@ public class Main {
                         throw new IllegalStateException("(How did this happen anyways? This is literally a For loop) Unexpected value: " + i);
             }
         }
+    }
+
+    private static void init(){
+        System.out.println("This tool is made by " + ANSI_GREEN + "TerabyteTB" + ANSI_RESET + ".");
+        System.out.println("The current build version is " + ANSI_GREEN + BUILD_VERSION + ANSI_RESET + ".");
+        System.out.println("You can find this project at " + GITHUB_REPOSITORY_ADDRESS + ".");
+
+        int str;
+        try {
+            str = utils.promptStat("Please enter your character's Strength statistic:");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        int dex;
+        try {
+            dex = utils.promptStat("Please enter your character's Dexterity statistic:");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        int con;
+        try {
+            con = utils.promptStat("Please enter your character's Constitution statistic:");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        int intelligence;
+        try {
+            intelligence = utils.promptStat("Please enter your character's Intelligence statistic:");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        int wis;
+        try {
+            wis = utils.promptStat("Please enter your character's Wisdom statistic:");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        int cha;
+        try {
+            cha = utils.promptStat("Please enter your character's Charisma statistic:");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        stats = Calculator.modCalc(str, dex, con, intelligence, wis, cha);
     }
 }
