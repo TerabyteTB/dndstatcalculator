@@ -28,7 +28,27 @@ public class Utilities {
             System.out.println(ANSI_RED + "Please enter only numbers." + ANSI_RESET);
             promptStat(prompt);
         }
-        //Placeholder return statement. Since the method is recursive, this physically cannot occur.
+        //unreachable return statement
         return 0;
+    }
+
+    public boolean promptBoolean(String prompt) throws IOException {
+        System.out.println(prompt);
+        String answer = this.readFromConsole();
+
+        switch (answer){
+            case "y" -> {
+                return true;
+            }
+            case "n" -> {
+                return false;
+            }
+            default -> {
+                System.out.println(ANSI_RED + "Please only answer with y/n." + ANSI_RESET);
+                promptStat(prompt);
+            }
+        }
+        //unreachable return statement.
+        return false;
     }
 }

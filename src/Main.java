@@ -9,21 +9,25 @@ public class Main {
     private static String[] stats;
     private static final Utilities utils = new Utilities();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         init();
+        boolean ifTrue = true;
 
-        for (int i = 0; i < PRIM_STATS; i++) {
-            switch (i) {
-                case 0 -> System.out.println("Your character's Strength modifier is: " + stats[0]);
-                case 1 -> System.out.println("Your character's Dexterity modifier is: " + stats[1]);
-                case 2 -> System.out.println("Your character's Constitution modifier is: " + stats[2]);
-                case 3 -> System.out.println("Your character's Intelligence modifier is: " + stats[3]);
-                case 4 -> System.out.println("Your character's Wisdom modifier is: " + stats[4]);
-                case 5 -> System.out.println("Your character's Charisma modifier is: " + stats[5]);
-                default ->
-                        throw new IllegalStateException("(How did this happen anyways? This is literally a For loop) Unexpected value: " + i);
+        while(ifTrue){
+            for (int i = 0; i < PRIM_STATS; i++) {
+                switch (i) {
+                    case 0 -> System.out.println("Your character's Strength modifier is: " + stats[0]);
+                    case 1 -> System.out.println("Your character's Dexterity modifier is: " + stats[1]);
+                    case 2 -> System.out.println("Your character's Constitution modifier is: " + stats[2]);
+                    case 3 -> System.out.println("Your character's Intelligence modifier is: " + stats[3]);
+                    case 4 -> System.out.println("Your character's Wisdom modifier is: " + stats[4]);
+                    case 5 -> System.out.println("Your character's Charisma modifier is: " + stats[5]);
+                    default -> throw new IllegalStateException("(Wait, this is illegal...) Unexpected value: " + i);
+                }
             }
+
+            ifTrue = utils.promptBoolean("Would you like to continue? (y/n)");
         }
     }
 

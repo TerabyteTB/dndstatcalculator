@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="958c822a-7a9c-40d4-bd27-5aa0477a150d" name="Changes" comment="Optimization and cleanup">
+    <list default="true" id="958c822a-7a9c-40d4-bd27-5aa0477a150d" name="Changes" comment="Commiiiiiiit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Utilities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678478073763</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Optimization and cleanup">
+      <created>1679866332149</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679866332149</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +271,7 @@
     <MESSAGE value="Optimize code organization" />
     <MESSAGE value="comment in Utilities.java" />
     <MESSAGE value="Optimization and cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimization and cleanup" />
+    <MESSAGE value="Commiiiiiiit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiiiiiiit" />
   </component>
 </project>
